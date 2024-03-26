@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sunnyside agency landing page - Frontend Mentor">
+  <meta name="keywords" content="Sunnyside agency landing page, graphical design, photography, artwork">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+
+  <header class="header">
+
+    <img src="images/logo.svg" alt="sunnyside logo" class="logo">
+
+    <button class="btn-mobile-nav">
+      <img src="images/icon-hamburger.svg" role="mobile menu button">
+    </button>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li><a href="#about" class="main-nav-link">About</a></li>
+        <li><a href="#services" class="main-nav-link">Services</a></li>
+        <li><a href="#testimonials" class="main-nav-link">Projects</a></li>
+        <li><a href="#contact" class="main-nav-link btn">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+   <!--  section HERO -->
+  <section class="hero">
+    <h1 class="heading-primary text-align">We are creatives</h1>
+    <a class="arrow" href="#about"><img src="images/icon-arrow-down.svg" alt="arrow"/></a>
+  </section>
+
+
+  <!--  section ABOUT -->
+  <section class="about" id="about">
+    <div class="grid grid--2-cols">
+      <div class="about--text-container transform">
+        <h2>Transform your brand</h2>
+        <p class="about--description">
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <a class="about--link yellow-link" href="">Learn more</a>
+      </div>
+      <div class="about--image-container yellow-container">
+        <img src="images/desktop/image-transform.jpg" alt="Minimal photo of egg on bright yellow background">
+      </div>
+      <div class="about--image-container pink-container">
+        <img src="images/desktop/image-stand-out.jpg" alt="Minimal photo of object on bright pink background">
+      </div>
+      <div class="about--text-container stand-out">
+        <h2 class="heading-secondary">Stand out to the right audience</h2>
+
+        <p class="about--description">
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+        </p>
+        <a class="about--link pink-link" href="">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+
+    <!--  section SERVICES -->
+    <section class="services" id="services">
+      <div class="grid grid--2-cols">
+
+        <!---- graphic design service ---->
+        <div class="services--container services--design-container">
+          <div class="services--text-content text-align">
+            <h3 class="heading-tertiary">Graphic Design</h3>
+            <p class="services--description">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+          </div>
+        </div>
+
+        <!---- photography service ---->
+        <div class="services--container services--photography-container">
+          <div class="services--text-content text-align">
+            <h3>Photography</h3>
+            <p class="services--description">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--  section TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <h4 class="text-align">Client testimonials</h4>
+      <div class="grid grid--3-cols">
+        <div class="testimonial-container testimonial-1 text-align">
+          <img src="images/image-emily.jpg" class="client-photo" alt="">
+          <p class="testimonial--feedback">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <p class="testimonial--author">Emily R.</p>
+          <p class="testimonial--author-job">Marketing Director</p>
+        </div>
+        <div class="testimonial-container testimonial-2 text-align">
+          <img src="images/image-thomas.jpg" class="client-photo" alt="">
+          <p class="testimonial--feedback">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <p class="testimonial--author">Thomas S.</p>
+          <p class="testimonial--author-job">Chief Operating Officer</p>
+        </div>
+        <div class="testimonial-container testimonial-3 text-align">
+          <img src="images/image-jennie.jpg" class="client-photo" alt="">
+          <p class="testimonial--feedback">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <p class="testimonial--author">Jennie F.</p>
+          <p class="testimonial--author-job">Business Owner</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!--  section GALLERY -->
+    <section class="gallery">
+      <div class="grid grid--4-cols">
+        <img src="images/desktop/image-gallery-milkbottles.jpg" alt="Three milkbottles in front of sky backdrop" class="gallery-photo">
+        <img src="images/desktop/image-gallery-orange.jpg" alt="Sliced orange in colorful background" class="gallery-photo">
+        <img src="images/desktop/image-gallery-cone.jpg" alt="Icecream cone on bright blue background" class="gallery-photo">
+        <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="Sugarcubes stacked in pink environment" class="gallery-photo">
+      </div>
+    </section>
+
+
+    <!--  section FOOTER -->
+    <footer class="footer">
+      <img src="images/logo.svg" alt="sunnyside logo" class="footer-logo">
+
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item"><a href="#about" class="footer-nav-link">About</a></li>
+        <li class="footer-nav-item"><a href="#services" class="footer-nav-link">Services</a></li>
+        <li class="footer-nav-item"><a href="/" class="footer-nav-link">Projects</a></li>
+      </ul>
+
+      <ul class="footer-socials-list" id="contact">
+        <li><a href="/" class="footer-nav-link"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+        <li><a href="/" class="footer-nav-link"><img src="images/icon-instagram.svg" alt="instagram icon"></a></li>
+        <li><a href="/" class="footer-nav-link"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+        <li><a href="/" class="footer-nav-link"><img src="images/icon-pinterest.svg" alt="pinterest icon"></a></li>
+      </ul>
+      
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
