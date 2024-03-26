@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/mcorusa/sunnyside-agency-landing-page](https://github.com/mcorusa/sunnyside-agency-landing-page)
+- Live Site URL: [https://mcorusa.github.io/sunnyside-agency-landing-page/](https://mcorusa.github.io/sunnyside-agency-landing-page/)
 
 
 ### Built with
